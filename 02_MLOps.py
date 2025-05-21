@@ -117,7 +117,7 @@ dados_treino, dados_inferencia = sts.depth_signal_checking(
 # ### Plotar os dados de treino
 sts.plot_simulation_distribution(
     dados_treino, bins=35, 
-    title="Histograma dos Dados de Treino");
+    title="Distribuição dos Dados de Treino");
 
 
 # # ### Treinamento/Validação do Modelo de ML
@@ -145,7 +145,7 @@ dados_estimados_prop_vector, dados_estimados = sts.transfer_to_seismic_scale(dad
 # In[16]:
 
 
-sts.plot_simulation_distribution(dados_estimados, bins=35, title="Distribuição dos dados de Inferência")
+sts.plot_simulation_distribution(dados_estimados, bins=35, title="Distribuição dos Dados de Inferência")
 
 
 # # ### Calculo dos Residuos: Dados de Referencia(software comercial) - Dados da Inferência ML
