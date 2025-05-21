@@ -31,7 +31,8 @@
 
 ### Importando Bicliotecas
 import numpy as np
-import simtoseis_library as sts
+#import simtoseis_library as sts
+from modulo import simtoseis_library as sts
 import mlflow
 import sys 
 sys.path.append('simtoseis_library.py')
