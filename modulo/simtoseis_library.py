@@ -92,7 +92,7 @@ def plot_seismic_slice(seismic_slice, title="Slice at Depth ~5000m", cmap='seism
     plt.title(title)
     plt.grid(True, alpha=0.3)
     plt.tight_layout();
- #   plt.show()
+    plt.show()
 
 def transfer_to_seismic_scale(dados_sismicos=None, nome_arquivo_segy=None):
     """
@@ -307,4 +307,4 @@ def plot_simulation_distribution(sim_array_xyzprop, bins=35, title = "DistribuiÃ
     plt.xlabel("Valor da Propriedade")
     plt.ylabel("FrequÃªncia")
     plt.grid(alpha=0.3)
-#    plt.show()
+    plt.show()
