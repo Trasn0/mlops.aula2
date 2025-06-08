@@ -33,8 +33,8 @@ stages:
       size: 70112
     - path: src/training.py
       hash: md5
-      md5: 01ca0e8db223280b7463e0b9f43a2465
-      size: 485
+      md5: f1ee4824340ea530145084ced7f81665
+      size: 837
     outs:
     - path: outputs/X.npy
       hash: md5
@@ -42,8 +42,8 @@ stages:
       size: 52616
     - path: outputs/model.pkl
       hash: md5
-      md5: 280d3c5fa627c86090e6aa72fac830bb
-      size: 21508129
+      md5: 34937cced66fd0a41edc5bc4b62447c2
+      size: 21612673
     - path: outputs/y.npy
       hash: md5
       md5: d6c61a3e4819d8475fe3743553bc0ef1
@@ -51,18 +51,14 @@ stages:
   inference:
     cmd: python src/inference.py
     deps:
-    - path: data/seismic_slice.npy
-      hash: md5
-      md5: b89efbbc51b4003adb9191a9bcde8951
-      size: 9314720
     - path: outputs/X.npy
       hash: md5
       md5: fca0688ce60ad3e490807a904cb1fede
       size: 52616
     - path: outputs/model.pkl
       hash: md5
-      md5: 280d3c5fa627c86090e6aa72fac830bb
-      size: 21508129
+      md5: 34937cced66fd0a41edc5bc4b62447c2
+      size: 21612673
     - path: outputs/seismic_slice_clean.npy
       hash: md5
       md5: 5b0fec0bf1887e366641f70ee2331510
@@ -73,12 +69,12 @@ stages:
       size: 17624
     - path: src/inference.py
       hash: md5
-      md5: 52f20cc01cb1b56b5165d9307b3d09b6
-      size: 661
+      md5: 2e19e46c029b7e80a49d65003ae4f0e1
+      size: 904
     outs:
     - path: outputs/seis_estimated.npy
       hash: md5
-      md5: 097103ba27a25a9687c3ca9b08a85dd5
+      md5: 980a47202c9ebbd23bc3b97f6bdefdd3
       size: 9314720
   evaluation:
     cmd: python src/evaluation.py
@@ -89,7 +85,7 @@ stages:
       size: 9314720
     - path: outputs/seis_estimated.npy
       hash: md5
-      md5: 097103ba27a25a9687c3ca9b08a85dd5
+      md5: 980a47202c9ebbd23bc3b97f6bdefdd3
       size: 9314720
     - path: outputs/sim_clean.npy
       hash: md5
@@ -102,5 +98,5 @@ stages:
     outs:
     - path: outputs/residuos.npy
       hash: md5
-      md5: f5c60f80eb865cd9c347356a63ad883f
+      md5: fe6cd861fe561965691e57eecd246385
       size: 9314720
