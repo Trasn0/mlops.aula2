@@ -1,0 +1,5 @@
+outs:
+- md5: 038bcf2c0c0e0e836e140cbe9350bedd
+  size: 9314720
+  hash: md5
+  path: seismic_slice_GT.npy

@@ -1,0 +1,5 @@
+outs:
+- md5: c5755d17e2985bfcb90731e71f6b2e47
+  size: 70112
+  hash: md5
+  path: sim_slice.npy
