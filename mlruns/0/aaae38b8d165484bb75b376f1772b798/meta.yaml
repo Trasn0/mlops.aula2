@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/aaae38b8d165484bb75b376f1772b798/artifacts
+end_time: 1749409972210
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aaae38b8d165484bb75b376f1772b798
+run_name: training
+run_uuid: aaae38b8d165484bb75b376f1772b798
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749409968740
+status: 3
+tags: []
+user_id: trasno

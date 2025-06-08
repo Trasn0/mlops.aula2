@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/7a18d46b0b0845a9bf2dd26494befcb0/artifacts
+deleted_time: 1749354544295
+end_time: 1749353568304
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 7a18d46b0b0845a9bf2dd26494befcb0
+run_name: inference
+run_uuid: 7a18d46b0b0845a9bf2dd26494befcb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749353568298
+status: 4
+tags: []
+user_id: trasno

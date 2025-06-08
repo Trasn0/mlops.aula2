@@ -42,8 +42,8 @@ stages:
       size: 52616
     - path: outputs/model.pkl
       hash: md5
-      md5: 34937cced66fd0a41edc5bc4b62447c2
-      size: 21612673
+      md5: b18027fdff31d9f3216e80e5751737f5
+      size: 21564145
     - path: outputs/y.npy
       hash: md5
       md5: d6c61a3e4819d8475fe3743553bc0ef1
@@ -57,8 +57,8 @@ stages:
       size: 52616
     - path: outputs/model.pkl
       hash: md5
-      md5: 34937cced66fd0a41edc5bc4b62447c2
-      size: 21612673
+      md5: b18027fdff31d9f3216e80e5751737f5
+      size: 21564145
     - path: outputs/seismic_slice_clean.npy
       hash: md5
       md5: 5b0fec0bf1887e366641f70ee2331510
@@ -74,7 +74,7 @@ stages:
     outs:
     - path: outputs/seis_estimated.npy
       hash: md5
-      md5: 980a47202c9ebbd23bc3b97f6bdefdd3
+      md5: ee556b6426d58b7731e15e6a97718f8f
       size: 9314720
   evaluation:
     cmd: python src/evaluation.py
@@ -85,7 +85,7 @@ stages:
       size: 9314720
     - path: outputs/seis_estimated.npy
       hash: md5
-      md5: 980a47202c9ebbd23bc3b97f6bdefdd3
+      md5: ee556b6426d58b7731e15e6a97718f8f
       size: 9314720
     - path: outputs/sim_clean.npy
       hash: md5
@@ -98,5 +98,5 @@ stages:
     outs:
     - path: outputs/residuos.npy
       hash: md5
-      md5: fe6cd861fe561965691e57eecd246385
+      md5: 4fb156587eb08b0ecf24d15dce8f3377
       size: 9314720
